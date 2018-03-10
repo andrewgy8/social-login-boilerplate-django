@@ -7,18 +7,11 @@ Github login is enabled by default.
 ## Features	 
  --------	 
  * User Registration	 
- * Sphinx Documentation
- * Django Nosetests	 
- * Integration with Django Rest Framework	 
+ * Django Tests	 
  * Basic Authentication with username and password
- * **OAuth 2.0 Authentication**	
-     * Github	     
-     * LinkedIn	     
-     * Instagram	 
-     * Facebook	     
-     * Google+	     
-     * Dropbox	     
-     * Foursquare	     
- * **OAuth 1.0a Authentication**
-     * Twitter	     
-     * Tumblr
+ 
+ 
+ This uses [django-social-auth](https://github.com/omab/django-social-auth), therefore you may use authorization 
+ from any service of which that library supports.
+ 
+ 
